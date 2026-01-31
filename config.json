@@ -1,0 +1,17 @@
+{
+  "year_range": {
+    "start": 2020,
+    "end": 2026
+  },
+  "cache_staleness_days": 30,
+  "max_retries_per_coach": 2,
+  "coaches_per_research_agent": 3,
+  "search_sources": [
+    "athletic_staff_page",
+    "wikipedia",
+    "cfbcrunch",
+    "sports_reference",
+    "web_search",
+    "news_search"
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "_comment": "Maps common name variations to canonical NMDP database names. Keys are canonical names (uppercase), values are arrays of aliases.",
+
+  "UNIVERSITY OF COLORADO-BOULDER": [
+    "CU Boulder",
+    "Colorado Buffaloes",
+    "CU",
+    "Colorado",
+    "University of Colorado",
+    "University of Colorado Boulder",
+    "UC Boulder",
+    "Buffaloes"
+  ],
+  "UNIVERSITY OF SOUTHERN CALIFORNIA": [
+    "USC",
+    "Southern Cal",
+    "Trojans",
+    "Southern California"
+  ],
+  "OHIO STATE UNIVERSITY (THE)": [
+    "Ohio State",
+    "OSU",
+    "Buckeyes",
+    "tOSU",
+    "The Ohio State University"
+  ],
+  "UNIVERSITY OF MICHIGAN - ANN ARBOR": [
+    "Michigan",
+    "University of Michigan",
+    "U of M",
+    "UMich",
+    "Wolverines",
+    "Michigan Wolverines"
+  ],
+  "UNIVERSITY OF ALABAMA": [
+    "Alabama",
+    "Bama",
+    "Crimson Tide",
+    "Alabama Crimson Tide"
+  ],
+  "UNIVERSITY OF GEORGIA": [
+    "Georgia",
+    "UGA",
+    "Bulldogs",
+    "Georgia Bulldogs"
+  ],
+  "UNIVERSITY OF TEXAS AT AUSTIN": [
+    "Texas",
+    "UT",
+    "UT Austin",
+    "Longhorns",
+    "Texas Longhorns"
+  ],
+  "PENN STATE UNIVERSITY": [
+    "Penn State",
+    "PSU",
+    "Nittany Lions",
+    "Pennsylvania State"
+  ],
+  "UNIVERSITY OF NOTRE DAME": [
+    "Notre Dame",
+    "ND",
+    "Fighting Irish",
+    "Irish"
+  ],
+  "CLEMSON UNIVERSITY": [
+    "Clemson",
+    "Tigers",
+    "Clemson Tigers"
+  ],
+  "UNIVERSITY OF OREGON": [
+    "Oregon",
+    "UO",
+    "Ducks",
+    "Oregon Ducks"
+  ],
+  "UNIVERSITY OF FLORIDA": [
+    "Florida",
+    "UF",
+    "Gators",
+    "Florida Gators"
+  ],
+  "LOUISIANA STATE UNIVERSITY": [
+    "LSU",
+    "Louisiana State",
+    "Tigers",
+    "LSU Tigers"
+  ],
+  "UNIVERSITY OF OKLAHOMA": [
+    "Oklahoma",
+    "OU",
+    "Sooners",
+    "Oklahoma Sooners"
+  ],
+  "FLORIDA STATE UNIVERSITY": [
+    "Florida State",
+    "FSU",
+    "Seminoles",
+    "Noles"
+  ],
+  "UNIVERSITY OF MIAMI": [
+    "Miami",
+    "The U",
+    "Hurricanes",
+    "Miami Hurricanes"
+  ],
+  "TEXAS A&M UNIVERSITY": [
+    "Texas A&M",
+    "TAMU",
+    "Aggies",
+    "A&M"
+  ],
+  "UNIVERSITY OF TENNESSEE-KNOXVILLE": [
+    "Tennessee",
+    "UT Knoxville",
+    "Volunteers",
+    "Vols"
+  ],
+  "AUBURN UNIVERSITY": [
+    "Auburn",
+    "AU",
+    "Tigers",
+    "Auburn Tigers",
+    "War Eagle"
+  ],
+  "UNIVERSITY OF WISCONSIN-MADISON": [
+    "Wisconsin",
+    "UW Madison",
+    "Badgers",
+    "Wisconsin Badgers"
+  ],
+  "UNIVERSITY OF IOWA": [
+    "Iowa",
+    "Hawkeyes",
+    "Iowa Hawkeyes"
+  ],
+  "MICHIGAN STATE UNIVERSITY": [
+    "Michigan State",
+    "MSU",
+    "Spartans",
+    "Michigan State Spartans"
+  ],
+  "UNIVERSITY OF KENTUCKY": [
+    "Kentucky",
+    "UK",
+    "Wildcats",
+    "Kentucky Wildcats"
+  ],
+  "UNIVERSITY OF ARKANSAS": [
+    "Arkansas",
+    "Razorbacks",
+    "Hogs",
+    "Arkansas Razorbacks"
+  ],
+  "VIRGINIA TECH": [
+    "Virginia Tech",
+    "VT",
+    "Hokies",
+    "Virginia Polytechnic"
+  ],
+  "UNIVERSITY OF VIRGINIA": [
+    "Virginia",
+    "UVA",
+    "Cavaliers",
+    "Wahoos"
+  ],
+  "WEST VIRGINIA UNIVERSITY": [
+    "West Virginia",
+    "WVU",
+    "Mountaineers"
+  ],
+  "UNIVERSITY OF PITTSBURGH": [
+    "Pittsburgh",
+    "Pitt",
+    "Panthers"
+  ],
+  "SYRACUSE UNIVERSITY": [
+    "Syracuse",
+    "Cuse",
+    "Orange"
+  ],
+  "BOSTON COLLEGE": [
+    "BC",
+    "Eagles",
+    "Boston College Eagles"
+  ],
+  "DUKE UNIVERSITY": [
+    "Duke",
+    "Blue Devils",
+    "Duke Blue Devils"
+  ],
+  "UNIVERSITY OF NORTH CAROLINA": [
+    "North Carolina",
+    "UNC",
+    "Tar Heels",
+    "Carolina"
+  ],
+  "NC STATE UNIVERSITY": [
+    "NC State",
+    "North Carolina State",
+    "Wolfpack",
+    "NCSU"
+  ],
+  "WAKE FOREST UNIVERSITY": [
+    "Wake Forest",
+    "Wake",
+    "Demon Deacons"
+  ],
+  "GEORGIA TECH": [
+    "Georgia Tech",
+    "GT",
+    "Yellow Jackets",
+    "Ramblin Wreck"
+  ],
+  "UNIVERSITY OF LOUISVILLE": [
+    "Louisville",
+    "UofL",
+    "Cardinals",
+    "Louisville Cardinals"
+  ],
+  "UNIVERSITY OF CALIFORNIA (UCLA)": [
+    "UCLA",
+    "Bruins",
+    "UC Los Angeles"
+  ],
+  "UNIVERSITY OF CALIFORNIA BERKELEY": [
+    "Cal",
+    "Berkeley",
+    "UC Berkeley",
+    "California",
+    "Golden Bears"
+  ],
+  "STANFORD UNIVERSITY": [
+    "Stanford",
+    "Cardinal"
+  ],
+  "UNIVERSITY OF WASHINGTON": [
+    "Washington",
+    "UW",
+    "Huskies",
+    "Washington Huskies"
+  ],
+  "WASHINGTON STATE UNIVERSITY": [
+    "Washington State",
+    "WSU",
+    "Wazzu",
+    "Cougars"
+  ],
+  "UNIVERSITY OF ARIZONA": [
+    "Arizona",
+    "UA",
+    "Wildcats",
+    "Arizona Wildcats"
+  ],
+  "ARIZONA STATE UNIVERSITY": [
+    "Arizona State",
+    "ASU",
+    "Sun Devils"
+  ],
+  "UNIVERSITY OF UTAH": [
+    "Utah",
+    "Utes",
+    "Utah Utes"
+  ],
+  "BRIGHAM YOUNG UNIVERSITY": [
+    "BYU",
+    "Brigham Young",
+    "Cougars"
+  ],
+  "BAYLOR UNIVERSITY": [
+    "Baylor",
+    "Bears",
+    "Baylor Bears"
+  ],
+  "TEXAS CHRISTIAN UNIVERSITY": [
+    "TCU",
+    "Horned Frogs",
+    "Texas Christian"
+  ],
+  "TEXAS TECH UNIVERSITY": [
+    "Texas Tech",
+    "TTU",
+    "Red Raiders"
+  ],
+  "KANSAS STATE UNIVERSITY": [
+    "Kansas State",
+    "K-State",
+    "KSU",
+    "Wildcats"
+  ],
+  "UNIVERSITY OF KANSAS": [
+    "Kansas",
+    "KU",
+    "Jayhawks"
+  ],
+  "IOWA STATE UNIVERSITY": [
+    "Iowa State",
+    "ISU",
+    "Cyclones"
+  ],
+  "UNIVERSITY OF CINCINNATI": [
+    "Cincinnati",
+    "UC",
+    "Bearcats",
+    "Cincy"
+  ],
+  "UNIVERSITY OF HOUSTON": [
+    "Houston",
+    "UH",
+    "Cougars"
+  ],
+  "UNIVERSITY OF CENTRAL FLORIDA": [
+    "UCF",
+    "Central Florida",
+    "Knights"
+  ],
+  "JACKSON STATE UNIVERSITY": [
+    "Jackson State",
+    "JSU",
+    "Tigers"
+  ],
+  "FLORIDA A&M UNIVERSITY": [
+    "Florida A&M",
+    "FAMU",
+    "Rattlers"
+  ],
+  "GRAMBLING STATE UNIVERSITY": [
+    "Grambling",
+    "Grambling State",
+    "GSU",
+    "Tigers"
+  ],
+  "SOUTHERN UNIVERSITY": [
+    "Southern",
+    "Jaguars",
+    "Southern Jaguars"
+  ],
+  "HOWARD UNIVERSITY": [
+    "Howard",
+    "Bison",
+    "HU"
+  ],
+  "HAMPTON UNIVERSITY": [
+    "Hampton",
+    "Pirates"
+  ],
+  "NORTH CAROLINA A&T STATE UNIVERSITY": [
+    "NC A&T",
+    "North Carolina A&T",
+    "Aggies"
+  ],
+  "BOWLING GREEN STATE UNIVERSITY": [
+    "Bowling Green",
+    "BGSU",
+    "Falcons"
+  ],
+  "UNIVERSITY OF AKRON": [
+    "Akron",
+    "Zips"
+  ],
+  "KENT STATE UNIVERSITY": [
+    "Kent State",
+    "Golden Flashes"
+  ],
+  "MIAMI UNIVERSITY (OHIO)": [
+    "Miami Ohio",
+    "Miami (OH)",
+    "RedHawks",
+    "Miami of Ohio"
+  ],
+  "BALL STATE UNIVERSITY": [
+    "Ball State",
+    "Cardinals"
+  ],
+  "EASTERN MICHIGAN UNIVERSITY": [
+    "Eastern Michigan",
+    "EMU",
+    "Eagles"
+  ],
+  "WESTERN MICHIGAN UNIVERSITY": [
+    "Western Michigan",
+    "WMU",
+    "Broncos"
+  ],
+  "CENTRAL MICHIGAN UNIVERSITY": [
+    "Central Michigan",
+    "CMU",
+    "Chippewas"
+  ],
+  "NORTHERN ILLINOIS UNIVERSITY": [
+    "Northern Illinois",
+    "NIU",
+    "Huskies"
+  ],
+  "UNIVERSITY OF TOLEDO": [
+    "Toledo",
+    "Rockets"
+  ],
+  "UNIVERSITY OF BUFFALO": [
+    "Buffalo",
+    "UB",
+    "Bulls"
+  ],
+  "UNIVERSITY OF HAWAII AT MANOA": [
+    "Hawaii",
+    "University of Hawaii",
+    "UH",
+    "Rainbow Warriors",
+    "Hawaii Rainbow Warriors"
+  ],
+  "TULANE UNIVERSITY": [
+    "Tulane",
+    "Green Wave",
+    "Tulane Green Wave"
+  ],
+  "UNIVERSITY OF RICHMOND": [
+    "Richmond",
+    "Spiders",
+    "Richmond Spiders"
+  ],
+  "CENTRAL WASHINGTON UNIVERSITY": [
+    "Central Washington",
+    "CWU",
+    "Wildcats"
+  ],
+  "BENEDICTINE COLLEGE": [
+    "Benedictine",
+    "Ravens",
+    "Benedictine Ravens"
+  ],
+  "OREGON STATE UNIVERSITY": [
+    "Oregon State",
+    "OSU",
+    "Beavers",
+    "Oregon State Beavers"
+  ]
+}

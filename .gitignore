@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Local database
+*.sqlite
+*.db
+
+# Cache (contains fetched data - rebuild as needed)
+cache/
+
+# Output (generated reports)
+output/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local Claude settings
+.claude/
+
+# Batch progress (runtime state)
+batch_progress.json

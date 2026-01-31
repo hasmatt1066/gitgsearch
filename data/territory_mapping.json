@@ -1,0 +1,25 @@
+{
+  "_comment": "Maps states to NMDP territories. User will provide actual territory definitions.",
+  "_placeholder": "Replace with actual NMDP territory data when available",
+
+  "territories": {
+    "PLACEHOLDER_WEST": {
+      "name": "West Territory",
+      "states": ["California", "Oregon", "Washington", "Nevada", "Arizona", "Utah", "Colorado", "Hawaii", "Alaska"]
+    },
+    "PLACEHOLDER_MIDWEST": {
+      "name": "Midwest Territory",
+      "states": ["Ohio", "Michigan", "Indiana", "Illinois", "Wisconsin", "Minnesota", "Iowa", "Missouri", "Kansas", "Nebraska", "South Dakota", "North Dakota"]
+    },
+    "PLACEHOLDER_SOUTH": {
+      "name": "South Territory",
+      "states": ["Texas", "Oklahoma", "Arkansas", "Louisiana", "Mississippi", "Alabama", "Tennessee", "Kentucky", "Florida", "Georgia", "South Carolina", "North Carolina", "Virginia", "West Virginia"]
+    },
+    "PLACEHOLDER_NORTHEAST": {
+      "name": "Northeast Territory",
+      "states": ["Pennsylvania", "New York", "New Jersey", "Connecticut", "Massachusetts", "Rhode Island", "Vermont", "New Hampshire", "Maine", "Maryland", "Delaware", "District of Columbia"]
+    }
+  },
+
+  "_usage": "The system will look up each school's state from school_locations.json, then find which territory contains that state"
+}

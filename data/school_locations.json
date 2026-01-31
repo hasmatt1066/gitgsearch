@@ -1,0 +1,137 @@
+{
+  "_comment": "Maps school names to their state and county. Keys should match canonical NMDP names or common variations.",
+  "_placeholder": "Territory mapping will be added separately in territory_mapping.json",
+
+  "UNIVERSITY OF COLORADO-BOULDER": {
+    "state": "Colorado",
+    "county": "Boulder County"
+  },
+  "UNIVERSITY OF OREGON": {
+    "state": "Oregon",
+    "county": "Lane County"
+  },
+  "SACRAMENTO STATE": {
+    "state": "California",
+    "county": "Sacramento County"
+  },
+  "CALIFORNIA STATE UNIVERSITY-SACRAMENTO": {
+    "state": "California",
+    "county": "Sacramento County"
+  },
+  "UNIVERSITY OF NORTHERN COLORADO": {
+    "state": "Colorado",
+    "county": "Weld County"
+  },
+  "JACKSON STATE UNIVERSITY": {
+    "state": "Mississippi",
+    "county": "Hinds County"
+  },
+  "UNIVERSITY OF ALABAMA": {
+    "state": "Alabama",
+    "county": "Tuscaloosa County"
+  },
+  "OHIO STATE UNIVERSITY (THE)": {
+    "state": "Ohio",
+    "county": "Franklin County"
+  },
+  "UNIVERSITY OF MICHIGAN - ANN ARBOR": {
+    "state": "Michigan",
+    "county": "Washtenaw County"
+  },
+  "UNIVERSITY OF GEORGIA": {
+    "state": "Georgia",
+    "county": "Clarke County"
+  },
+  "UNIVERSITY OF TEXAS AT AUSTIN": {
+    "state": "Texas",
+    "county": "Travis County"
+  },
+  "PENN STATE UNIVERSITY": {
+    "state": "Pennsylvania",
+    "county": "Centre County"
+  },
+  "UNIVERSITY OF NOTRE DAME": {
+    "state": "Indiana",
+    "county": "St. Joseph County"
+  },
+  "CLEMSON UNIVERSITY": {
+    "state": "South Carolina",
+    "county": "Pickens County"
+  },
+  "UNIVERSITY OF FLORIDA": {
+    "state": "Florida",
+    "county": "Alachua County"
+  },
+  "LOUISIANA STATE UNIVERSITY": {
+    "state": "Louisiana",
+    "county": "East Baton Rouge Parish"
+  },
+  "UNIVERSITY OF OKLAHOMA": {
+    "state": "Oklahoma",
+    "county": "Cleveland County"
+  },
+  "FLORIDA STATE UNIVERSITY": {
+    "state": "Florida",
+    "county": "Leon County"
+  },
+  "UNIVERSITY OF MIAMI": {
+    "state": "Florida",
+    "county": "Miami-Dade County"
+  },
+  "TEXAS A&M UNIVERSITY": {
+    "state": "Texas",
+    "county": "Brazos County"
+  },
+  "UNIVERSITY OF TENNESSEE-KNOXVILLE": {
+    "state": "Tennessee",
+    "county": "Knox County"
+  },
+  "AUBURN UNIVERSITY": {
+    "state": "Alabama",
+    "county": "Lee County"
+  },
+  "UNIVERSITY OF WISCONSIN-MADISON": {
+    "state": "Wisconsin",
+    "county": "Dane County"
+  },
+  "UNIVERSITY OF IOWA": {
+    "state": "Iowa",
+    "county": "Johnson County"
+  },
+  "MICHIGAN STATE UNIVERSITY": {
+    "state": "Michigan",
+    "county": "Ingham County"
+  },
+  "UNIVERSITY OF SOUTHERN CALIFORNIA": {
+    "state": "California",
+    "county": "Los Angeles County"
+  },
+  "UNIVERSITY OF CALIFORNIA (UCLA)": {
+    "state": "California",
+    "county": "Los Angeles County"
+  },
+  "STANFORD UNIVERSITY": {
+    "state": "California",
+    "county": "Santa Clara County"
+  },
+  "UNIVERSITY OF WASHINGTON": {
+    "state": "Washington",
+    "county": "King County"
+  },
+  "UNIVERSITY OF ARIZONA": {
+    "state": "Arizona",
+    "county": "Pima County"
+  },
+  "ARIZONA STATE UNIVERSITY": {
+    "state": "Arizona",
+    "county": "Maricopa County"
+  },
+  "UNIVERSITY OF UTAH": {
+    "state": "Utah",
+    "county": "Salt Lake County"
+  },
+  "BRIGHAM YOUNG UNIVERSITY": {
+    "state": "Utah",
+    "county": "Utah County"
+  }
+}
