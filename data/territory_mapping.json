@@ -1,25 +1,444 @@
 {
-  "_comment": "Maps states to NMDP territories. User will provide actual territory definitions.",
-  "_placeholder": "Replace with actual NMDP territory data when available",
-
-  "territories": {
-    "PLACEHOLDER_WEST": {
-      "name": "West Territory",
-      "states": ["California", "Oregon", "Washington", "Nevada", "Arizona", "Utah", "Colorado", "Hawaii", "Alaska"]
+  "_source": "/mnt/c/Users/mhast/Desktop/gitgsearch2/data/CA and TX Coverage Map for Lead Distribution (1).xlsx",
+  "_updated": "2026-01-31",
+  "state_territories": {
+    "Alaska": "Sacramento Valley & North Coast",
+    "Arizona": "Southwest",
+    "Colorado": "Colorado/Utah",
+    "Hawaii": "Southern CA West",
+    "Idaho": "Southwest",
+    "Montana": "Northwest",
+    "Nevada": "Southwest",
+    "New Mexico": "Southwest",
+    "Northern California": "Sacramento Valley & North Coast",
+    "Oregon": "Northwest",
+    "Utah": "Colorado/Utah",
+    "Washington": "Northwest",
+    "Wyoming": "Northwest"
+  },
+  "county_territories": {
+    "California": {
+      "Alpine County": "Sacramento Valley & North Coast",
+      "Amador County": "Sacramento Valley & North Coast",
+      "Butte County": "Sacramento Valley & North Coast",
+      "Calaveras County": "Sacramento Valley & North Coast",
+      "Colusa County": "Sacramento Valley & North Coast",
+      "Del Norte County": "Sacramento Valley & North Coast",
+      "El Dorado County": "Sacramento Valley & North Coast",
+      "Glenn County": "Sacramento Valley & North Coast",
+      "Humboldt County": "Sacramento Valley & North Coast",
+      "Lake County": "Sacramento Valley & North Coast",
+      "Lassen County": "Sacramento Valley & North Coast",
+      "Marin County": "Sacramento Valley & North Coast",
+      "Mendocino County": "Sacramento Valley & North Coast",
+      "Modoc County": "Sacramento Valley & North Coast",
+      "Mono County": "Sacramento Valley & North Coast",
+      "Napa County": "Sacramento Valley & North Coast",
+      "Nevada County": "Sacramento Valley & North Coast",
+      "Placer County": "Sacramento Valley & North Coast",
+      "Plumas County": "Sacramento Valley & North Coast",
+      "Sacramento County": "Sacramento Valley & North Coast",
+      "San Joaquin County": "Sacramento Valley & North Coast",
+      "Shasta County": "Sacramento Valley & North Coast",
+      "Sierra County": "Sacramento Valley & North Coast",
+      "Siskiyou County": "Sacramento Valley & North Coast",
+      "Solano County": "Sacramento Valley & North Coast",
+      "Sonoma County": "Sacramento Valley & North Coast",
+      "Stanislaus County": "Sacramento Valley & North Coast",
+      "Sutter County": "Sacramento Valley & North Coast",
+      "Tehama County": "Sacramento Valley & North Coast",
+      "Trinity County": "Sacramento Valley & North Coast",
+      "Tuolumne County": "Sacramento Valley & North Coast",
+      "Yolo County": "Sacramento Valley & North Coast",
+      "Yuba County": "Sacramento Valley & North Coast",
+      "Alameda County": "SF Bay Area & Central Coast",
+      "Contra Costa County": "SF Bay Area & Central Coast",
+      "Fresno County": "SF Bay Area & Central Coast",
+      "Inyo County": "SF Bay Area & Central Coast",
+      "Kings County": "SF Bay Area & Central Coast",
+      "Madera County": "SF Bay Area & Central Coast",
+      "Mariposa County": "SF Bay Area & Central Coast",
+      "Merced County": "SF Bay Area & Central Coast",
+      "Monterey County": "SF Bay Area & Central Coast",
+      "San Benito County": "SF Bay Area & Central Coast",
+      "San Francisco": "SF Bay Area & Central Coast",
+      "San Mateo County": "SF Bay Area & Central Coast",
+      "Santa Clara County": "SF Bay Area & Central Coast",
+      "Santa Cruz County": "SF Bay Area & Central Coast",
+      "Tulare County": "SF Bay Area & Central Coast",
+      "Imperial County": "Southern CA East",
+      "Kern County": "Southern CA East",
+      "Riverside County": "Southern CA East",
+      "San Bernardino County": "Southern CA East",
+      "San Diego County": "Southern CA East",
+      "San Luis Obispo County": "Southern CA East",
+      "Los Angeles County": "Southern CA West",
+      "Orange County": "Southern CA West",
+      "Santa Barbara County": "Southern CA West",
+      "Ventura County": "Southern CA West"
     },
-    "PLACEHOLDER_MIDWEST": {
-      "name": "Midwest Territory",
-      "states": ["Ohio", "Michigan", "Indiana", "Illinois", "Wisconsin", "Minnesota", "Iowa", "Missouri", "Kansas", "Nebraska", "South Dakota", "North Dakota"]
-    },
-    "PLACEHOLDER_SOUTH": {
-      "name": "South Territory",
-      "states": ["Texas", "Oklahoma", "Arkansas", "Louisiana", "Mississippi", "Alabama", "Tennessee", "Kentucky", "Florida", "Georgia", "South Carolina", "North Carolina", "Virginia", "West Virginia"]
-    },
-    "PLACEHOLDER_NORTHEAST": {
-      "name": "Northeast Territory",
-      "states": ["Pennsylvania", "New York", "New Jersey", "Connecticut", "Massachusetts", "Rhode Island", "Vermont", "New Hampshire", "Maine", "Maryland", "Delaware", "District of Columbia"]
+    "Texas": {
+      "Anderson County": "North Texas",
+      "Andrews County": "North Texas",
+      "Angelina County": "East Texas / Houston",
+      "Aransas County": "South Texas / San Antonio",
+      "Archer County": "North Texas",
+      "Armstrong County": "North Texas",
+      "Atascosa County": "South Texas / San Antonio",
+      "Austin County": "South Texas / San Antonio",
+      "Bailey County": "North Texas",
+      "Bandera County": "South Texas / San Antonio",
+      "Bastrop County": "South Texas / San Antonio",
+      "Baylor County": "North Texas",
+      "Bee County": "South Texas / San Antonio",
+      "Bell County": "South Texas / San Antonio",
+      "Bexar County": "South Texas / San Antonio",
+      "Blanco County": "South Texas / San Antonio",
+      "Borden County": "North Texas",
+      "Bosque County": "North Texas",
+      "Bowie County": "North Texas",
+      "Brazoria County": "East Texas / Houston",
+      "Brazos County": "East Texas / Houston",
+      "Brewster County": "South Texas / San Antonio",
+      "Briscoe County": "North Texas",
+      "Brooks County": "South Texas / San Antonio",
+      "Brown County": "North Texas",
+      "Burleson County": "East Texas / Houston",
+      "Burnet County": "South Texas / San Antonio",
+      "Caldwell County": "South Texas / San Antonio",
+      "Calhoun County": "South Texas / San Antonio",
+      "Callahan County": "North Texas",
+      "Cameron County": "South Texas / San Antonio",
+      "Camp County": "North Texas",
+      "Carson County": "North Texas",
+      "Cass County": "North Texas",
+      "Castro County": "North Texas",
+      "Chambers County": "East Texas / Houston",
+      "Cherokee County": "East Texas / Houston",
+      "Childress County": "North Texas",
+      "Clay County": "North Texas",
+      "Cochran County": "North Texas",
+      "Coke County": "North Texas",
+      "Coleman County": "North Texas",
+      "Collin County": "North Texas",
+      "Collingsworth County": "North Texas",
+      "Colorado County": "East Texas / Houston",
+      "Comal County": "South Texas / San Antonio",
+      "Comanche County": "North Texas",
+      "Concho County": "North Texas",
+      "Cooke County": "North Texas",
+      "Coryell County": "North Texas",
+      "Cottle County": "North Texas",
+      "Crane County": "North Texas",
+      "Crockett County": "North Texas",
+      "Crosby County": "North Texas",
+      "Culberson County": "South Texas / San Antonio",
+      "Dallam County": "North Texas",
+      "Dallas County": "North Texas",
+      "Dawson County": "North Texas",
+      "De Witt County": "South Texas / San Antonio",
+      "Deaf Smith County": "North Texas",
+      "Delta County": "North Texas",
+      "Denton County": "North Texas",
+      "Dickens County": "North Texas",
+      "Dimmit County": "South Texas / San Antonio",
+      "DOnley County": "North Texas",
+      "Duval County": "South Texas / San Antonio",
+      "Eastland County": "North Texas",
+      "Ector County": "North Texas",
+      "Edwards County": "South Texas / San Antonio",
+      "El Paso County": "South Texas / San Antonio",
+      "Ellis County": "North Texas",
+      "Erath County": "North Texas",
+      "Falls County": "North Texas",
+      "Fannin County": "North Texas",
+      "Fayette County": "South Texas / San Antonio",
+      "Fisher County": "North Texas",
+      "Floyd County": "North Texas",
+      "Foard County": "North Texas",
+      "Fort Bend County": "East Texas / Houston",
+      "Franklin County": "North Texas",
+      "Freestone County": "North Texas",
+      "Frio County": "South Texas / San Antonio",
+      "Gaines County": "North Texas",
+      "Galveston County": "East Texas / Houston",
+      "Garza County": "North Texas",
+      "Gillespie County": "South Texas / San Antonio",
+      "Glasscock County": "North Texas",
+      "Goliad County": "South Texas / San Antonio",
+      "Gonzales County": "South Texas / San Antonio",
+      "Gray County": "North Texas",
+      "Grayson County": "North Texas",
+      "Gregg County": "North Texas",
+      "Grimes County": "East Texas / Houston",
+      "Guadalupe County": "South Texas / San Antonio",
+      "Hale County": "North Texas",
+      "Hall County": "North Texas",
+      "Hamilton County": "North Texas",
+      "Hansford County": "North Texas",
+      "Hardeman County": "North Texas",
+      "Hardin County": "Gulf Coast",
+      "Harris County": "East Texas / Houston",
+      "Harrison County": "North Texas",
+      "Hartley County": "North Texas",
+      "Haskell County": "North Texas",
+      "Hays County": "South Texas / San Antonio",
+      "Hemphill County": "North Texas",
+      "Henderson County": "North Texas",
+      "Hidalgo County": "South Texas / San Antonio",
+      "Hill County": "North Texas",
+      "Hockley County": "North Texas",
+      "Hood County": "North Texas",
+      "Hopkins County": "North Texas",
+      "Houston County": "East Texas / Houston",
+      "Howard County": "North Texas",
+      "Hudspeth County": "South Texas / San Antonio",
+      "Hunt County": "North Texas",
+      "Hutchinson County": "North Texas",
+      "Irion County": "North Texas",
+      "Jack County": "North Texas",
+      "Jackson County": "East Texas / Houston",
+      "Jasper County": "East Texas / Houston",
+      "Jeff Davis County": "South Texas / San Antonio",
+      "Jefferson County": "East Texas / Houston",
+      "Jim Hogg County": "South Texas / San Antonio",
+      "Jim Wells County": "South Texas / San Antonio",
+      "Johnson County": "North Texas",
+      "Jones County": "North Texas",
+      "Karnes County": "South Texas / San Antonio",
+      "Kaufman County": "North Texas",
+      "Kendall County": "South Texas / San Antonio",
+      "Kenedy County": "South Texas / San Antonio",
+      "Kent County": "North Texas",
+      "Kerr County": "South Texas / San Antonio",
+      "Kimble County": "South Texas / San Antonio",
+      "King County": "North Texas",
+      "Kinney County": "South Texas / San Antonio",
+      "Kleberg County": "South Texas / San Antonio",
+      "Knox County": "North Texas",
+      "La Salle County": "South Texas / San Antonio",
+      "Lamar County": "North Texas",
+      "Lamb County": "North Texas",
+      "Lampasas County": "South Texas / San Antonio",
+      "Lavaca County": "South Texas / San Antonio",
+      "Lee County": "South Texas / San Antonio",
+      "Leon County": "East Texas / Houston",
+      "Liberty County": "East Texas / Houston",
+      "Limestone County": "North Texas",
+      "Lipscomb County": "North Texas",
+      "Live Oak County": "South Texas / San Antonio",
+      "Llano County": "South Texas / San Antonio",
+      "Loving County": "North Texas",
+      "Lubbock County": "North Texas",
+      "Lynn County": "North Texas",
+      "Madison County": "East Texas / Houston",
+      "Marion County": "North Texas",
+      "Martin County": "North Texas",
+      "Mason County": "South Texas / San Antonio",
+      "Matagorda County": "East Texas / Houston",
+      "Maverick County": "South Texas / San Antonio",
+      "McCulloch County": "South Texas / San Antonio",
+      "McLennan County": "North Texas",
+      "McMullen County": "South Texas / San Antonio",
+      "Medina County": "South Texas / San Antonio",
+      "Menard County": "South Texas / San Antonio",
+      "Midland County": "North Texas",
+      "Milam County": "East Texas / Houston",
+      "Mills County": "North Texas",
+      "Mitchell County": "North Texas",
+      "Montague County": "North Texas",
+      "Montgomery County": "East Texas / Houston",
+      "Moore County": "North Texas",
+      "Morris County": "North Texas",
+      "Motley County": "North Texas",
+      "Nacogdoches County": "East Texas / Houston",
+      "Navarro County": "North Texas",
+      "Newton County": "East Texas / Houston",
+      "Nolan County": "North Texas",
+      "Nueces County": "South Texas / San Antonio",
+      "Ochiltree County": "North Texas",
+      "Oldham County": "North Texas",
+      "Orange County": "East Texas / Houston",
+      "Palo Pinto County": "North Texas",
+      "Panola County": "North Texas",
+      "Parker County": "North Texas",
+      "Parmer County": "North Texas",
+      "Pecos County": "South Texas / San Antonio",
+      "Polk County": "East Texas / Houston",
+      "Potter County": "North Texas",
+      "Presidio County": "South Texas / San Antonio",
+      "Rains County": "North Texas",
+      "Randall County": "North Texas",
+      "Reagan County": "North Texas",
+      "Real County": "South Texas / San Antonio",
+      "Red River County": "North Texas",
+      "Reeves County": "South Texas / San Antonio",
+      "Refugio County": "South Texas / San Antonio",
+      "Roberts County": "North Texas",
+      "Robertson County": "East Texas / Houston",
+      "Rockwall County": "North Texas",
+      "Runnels County": "North Texas",
+      "Rusk County": "North Texas",
+      "Sabine County": "East Texas / Houston",
+      "San Augustine County": "East Texas / Houston",
+      "San Jacinto County": "East Texas / Houston",
+      "San Patricio County": "South Texas / San Antonio",
+      "San Saba County": "South Texas / San Antonio",
+      "Schleicher County": "North Texas",
+      "Scurry County": "North Texas",
+      "Shackelford County": "North Texas",
+      "Shelby County": "East Texas / Houston",
+      "Sherman County": "North Texas",
+      "Smith County": "North Texas",
+      "Somervell County": "North Texas",
+      "Starr County": "South Texas / San Antonio",
+      "Stephens County": "North Texas",
+      "Sterling County": "North Texas",
+      "Stonewall County": "North Texas",
+      "Sutton County": "North Texas",
+      "Swisher County": "North Texas",
+      "Tarrant County": "North Texas",
+      "Taylor County": "North Texas",
+      "Terrell County": "South Texas / San Antonio",
+      "Terry County": "North Texas",
+      "Throckmorton County": "North Texas",
+      "Titus County": "North Texas",
+      "Tom Green County": "North Texas",
+      "Travis County": "South Texas / San Antonio",
+      "Trinity County": "East Texas / Houston",
+      "Tyler County": "North Texas",
+      "Upshur County": "East Texas / Houston",
+      "Upton County": "North Texas",
+      "Uvalde County": "South Texas / San Antonio",
+      "Val Verde County": "South Texas / San Antonio",
+      "Van Zandt County": "North Texas",
+      "Victoria County": "South Texas / San Antonio",
+      "Walker County": "East Texas / Houston",
+      "Waller County": "East Texas / Houston",
+      "Ward County": "North Texas",
+      "Washington County": "East Texas / Houston",
+      "Webb County": "South Texas / San Antonio",
+      "Wharton County": "East Texas / Houston",
+      "Wheeler County": "North Texas",
+      "Wichita County": "North Texas",
+      "Wilbarger County": "North Texas",
+      "Willacy County": "South Texas / San Antonio",
+      "Williamson County": "South Texas / San Antonio",
+      "Wilson County": "South Texas / San Antonio",
+      "Winkler County": "North Texas",
+      "Wise County": "North Texas",
+      "Wood County": "North Texas",
+      "Yoakum County": "North Texas",
+      "Young County": "North Texas",
+      "Zapata County": "South Texas / San Antonio",
+      "Zavala County": "South Texas / San Antonio"
     }
   },
-
-  "_usage": "The system will look up each school's state from school_locations.json, then find which territory contains that state"
+  "territory_details": {
+    "Sacramento Valley & North Coast": {
+      "states": [
+        "Alaska",
+        "Northern California"
+      ],
+      "account_managers": [
+        "Emmanuel Lopez"
+      ]
+    },
+    "Southwest": {
+      "states": [
+        "Arizona",
+        "Idaho",
+        "Nevada",
+        "New Mexico"
+      ],
+      "account_managers": [
+        "Aubrie Vargas"
+      ]
+    },
+    "Colorado/Utah": {
+      "states": [
+        "Colorado",
+        "Utah"
+      ],
+      "account_managers": [
+        "Kevin Mechenbier"
+      ]
+    },
+    "Hawaii": {
+      "states": [
+        "Hawaii"
+      ],
+      "account_managers": [
+        "-"
+      ]
+    },
+    "Northwest": {
+      "states": [
+        "Montana",
+        "Oregon",
+        "Washington",
+        "Wyoming"
+      ],
+      "account_managers": [
+        "Leah Couts"
+      ]
+    },
+    "SF Bay Area & Central Coast": {
+      "states": [
+        "Northern California"
+      ],
+      "account_managers": [
+        "Lauren Barhite"
+      ]
+    },
+    "Southern CA East": {
+      "states": [
+        "California"
+      ],
+      "account_managers": [
+        "Joyce Valdez"
+      ]
+    },
+    "Southern CA West": {
+      "states": [
+        "California"
+      ],
+      "account_managers": [
+        "Claudia Parra"
+      ]
+    },
+    "North Texas": {
+      "states": [
+        "Texas"
+      ],
+      "account_managers": [
+        "Ryan Dixon"
+      ]
+    },
+    "East Texas / Houston": {
+      "states": [
+        "Texas"
+      ],
+      "account_managers": [
+        "Brian Allison",
+        "Eric Bolton"
+      ]
+    },
+    "South Texas / San Antonio": {
+      "states": [
+        "Texas"
+      ],
+      "account_managers": [
+        "Leticia Mondragon"
+      ]
+    },
+    "Gulf Coast": {
+      "states": [
+        "Texas"
+      ],
+      "account_managers": [
+        "Miranda Robinson"
+      ]
+    }
+  }
 }

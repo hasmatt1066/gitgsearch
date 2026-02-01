@@ -13,5 +13,11 @@
     "sports_reference",
     "web_search",
     "news_search"
-  ]
+  ],
+  "data_files": {
+    "gitg_database": "data/gitg_school_years.json",
+    "school_aliases": "data/school_aliases.json",
+    "school_locations": "data/school_locations.json",
+    "territory_mapping": "data/territory_mapping.json"
+  }
 }

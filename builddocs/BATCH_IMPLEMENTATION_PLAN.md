@@ -11,14 +11,14 @@ Implement autonomous batch processing of multiple schools using the Ralph Wiggum
 ## Phase 1: Data Files
 
 ### 1.1 School List Definition
-- [ ] Create `data/target_schools_west.json`
-- [ ] Define JSON schema with required fields:
+- [x] Create `data/target_schools_west.json`
+- [x] Define JSON schema with required fields:
   - `name`: Official school name
   - `conference`: Athletic conference
   - `state`: State abbreviation (for regional grouping)
   - `priority`: Optional ranking (1=high, 2=medium, 3=low)
-- [ ] Populate with initial school list (start with 5 for testing)
-- [ ] Validate all school names against `data/school_aliases.json`
+- [x] Populate with initial school list (24 western schools)
+- [x] Validate all school names against `data/school_aliases.json`
 
 **Schema:**
 ```json
@@ -37,9 +37,9 @@ Implement autonomous batch processing of multiple schools using the Ralph Wiggum
 ```
 
 ### 1.2 Progress Tracker
-- [ ] Create `batch_progress.json` schema
-- [ ] Include fields: started, last_updated, current_school, completed, failed, pending
-- [ ] Failed entries should include error reason
+- [x] Create `batch_progress.json` schema
+- [x] Include fields: started, last_updated, current_school, completed, failed, pending
+- [x] Failed entries should include error reason
 
 **Schema:**
 ```json
@@ -59,12 +59,12 @@ Implement autonomous batch processing of multiple schools using the Ralph Wiggum
 ## Phase 2: Scripts
 
 ### 2.1 Batch Initialization Script
-- [ ] Create `scripts/batch_init.py`
-- [ ] Read school list from `data/target_schools_west.json`
-- [ ] Initialize `batch_progress.json` with all schools in pending
-- [ ] Set started timestamp
-- [ ] Validate no duplicate schools
-- [ ] Handle case where progress file already exists (prompt to reset or resume)
+- [x] Create `scripts/batch_init.py`
+- [x] Read school list from `data/target_schools_west.json`
+- [x] Initialize `batch_progress.json` with all schools in pending
+- [x] Set started timestamp
+- [x] Validate no duplicate schools
+- [x] Handle case where progress file already exists (prompt to reset or resume)
 
 **Usage:**
 ```bash
@@ -74,11 +74,11 @@ cd scripts && python3 batch_init.py --reset  # Force fresh start
 ```
 
 ### 2.2 Batch Status Script
-- [ ] Create `scripts/batch_status.py`
-- [ ] Display summary: X completed, Y failed, Z pending
-- [ ] Show current school in progress (if any)
-- [ ] Show list of failed schools with reasons
-- [ ] Calculate estimated completion (based on avg time per school)
+- [x] Create `scripts/batch_status.py`
+- [x] Display summary: X completed, Y failed, Z pending
+- [x] Show current school in progress (if any)
+- [x] Show list of failed schools with reasons
+- [x] Calculate estimated completion (based on avg time per school)
 
 **Usage:**
 ```bash
@@ -86,10 +86,10 @@ cd scripts && python3 batch_status.py
 ```
 
 ### 2.3 Batch Resume Script
-- [ ] Create `scripts/batch_resume.py`
-- [ ] Move current_school back to front of pending (if interrupted mid-school)
-- [ ] Clear current_school field
-- [ ] Display resume instructions
+- [x] Create `scripts/batch_resume.py`
+- [x] Move current_school back to front of pending (if interrupted mid-school)
+- [x] Clear current_school field
+- [x] Display resume instructions
 
 **Usage:**
 ```bash
@@ -97,18 +97,18 @@ cd scripts && python3 batch_resume.py
 ```
 
 ### 2.4 Aggregate Results Script
-- [ ] Create `scripts/aggregate_results.py`
-- [ ] Combine all individual school CSVs into master CSV
-- [ ] Generate summary statistics:
+- [x] ~~Create `scripts/aggregate_results.py`~~ (Using existing `generate_master_report.py`)
+- [x] Combine all individual school CSVs into master CSV
+- [x] Generate summary statistics:
   - Total schools processed
   - Total coaches researched
   - Total NMDP overlaps found
   - Schools with most overlaps
-- [ ] Output to `output/batch_[name]_[date].csv`
+- [x] Output to `output/master_report_[date].xlsx`
 
 **Usage:**
 ```bash
-cd scripts && python3 aggregate_results.py
+cd scripts && python3 generate_master_report.py
 ```
 
 ---
@@ -121,19 +121,19 @@ cd scripts && python3 aggregate_results.py
 - [ ] Test Ralph with simple loop (3 iterations max)
 
 ### 3.2 Create Batch Prompt File
-- [ ] Create `prompts/batch_loop.md`
-- [ ] Include all guardrails from research
-- [ ] Include stuck detection (3 retries max)
-- [ ] Include escape hatches for common failures
-- [ ] Include progress output format
+- [x] Create `prompts/batch_loop.md`
+- [x] Include all guardrails from research
+- [x] Include stuck detection (3 retries max)
+- [x] Include escape hatches for common failures
+- [x] Include progress output format
 
 ### 3.3 Create Launch Script
-- [ ] Create `scripts/launch_batch.sh`
-- [ ] Wrapper script that:
+- [x] Create `scripts/launch_batch.sh`
+- [x] Wrapper script that:
   - Verifies batch_progress.json exists
   - Shows current status
   - Confirms user wants to start/resume
-  - Launches Ralph with correct parameters
+  - Generates Ralph command with correct parameters
 
 **Usage:**
 ```bash
@@ -199,14 +199,14 @@ cd scripts && python3 aggregate_results.py
 
 | File | Status | Description |
 |------|--------|-------------|
-| `data/target_schools_west.json` | [ ] | School list for batch processing |
-| `batch_progress.json` | [ ] | Progress tracking (root level) |
-| `scripts/batch_init.py` | [ ] | Initialize progress from school list |
-| `scripts/batch_status.py` | [ ] | Display batch progress |
-| `scripts/batch_resume.py` | [ ] | Reset interrupted school |
-| `scripts/aggregate_results.py` | [ ] | Combine all CSVs |
-| `scripts/launch_batch.sh` | [ ] | Wrapper to start Ralph loop |
-| `prompts/batch_loop.md` | [ ] | Ralph prompt with guardrails |
+| `data/target_schools_west.json` | [x] | School list for batch processing (24 schools) |
+| `batch_progress.json` | [x] | Progress tracking (root level) |
+| `scripts/batch_init.py` | [x] | Initialize progress from school list |
+| `scripts/batch_status.py` | [x] | Display batch progress |
+| `scripts/batch_resume.py` | [x] | Reset interrupted school |
+| `scripts/generate_master_report.py` | [x] | Combine all CSVs (pre-existing) |
+| `scripts/launch_batch.sh` | [x] | Wrapper to start Ralph loop |
+| `prompts/batch_loop.md` | [x] | Ralph prompt with guardrails |
 
 ---
 

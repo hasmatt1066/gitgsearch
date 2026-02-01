@@ -33,3 +33,25 @@ Thumbs.db
 
 # Batch progress (runtime state)
 batch_progress.json
+
+# Google API credentials (sensitive - do not commit)
+data/google_sheets_credentials.json
+gitgcoachresearch-*.json
+*.json.bak
+
+# Environment files
+.env
+.env.local
+
+# Screenshots and temporary files
+*.png
+*.jpg
+*.jpeg
+
+# Large data files (imports, not source)
+data/CA and TX Coverage Map*.xlsx
+data/college_football_teams*.xlsx
+data/territoryinformation/
+
+# Temporary Excel outputs
+Jan*.xlsx

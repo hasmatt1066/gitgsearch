@@ -19,14 +19,21 @@ gitgsearch2/
 ├── PRD.md                    # Product requirements document
 ├── config.json               # Configurable parameters
 ├── data/
-│   ├── gitg_school_years.json   # NMDP partnership database
-│   └── school_aliases.json      # School name mappings
+│   ├── gitg_school_years.json       # NMDP partnership database
+│   ├── school_aliases.json          # School name mappings
+│   ├── school_locations.json        # School -> state/county mapping
+│   ├── territory_mapping.json       # State -> NMDP territory mapping
+│   └── google_sheets_credentials.json  # Google API service account key
 ├── scripts/
-│   ├── cache_utils.py        # Cache staleness and completeness checking
-│   ├── validate.py           # Schema validation
-│   ├── normalize.py          # School name normalization
-│   ├── cross_reference.py    # NMDP overlap detection
-│   └── generate_csv.py       # CSV output generation
+│   ├── cache_utils.py           # Cache staleness and completeness checking
+│   ├── validate.py              # Schema validation
+│   ├── normalize.py             # School name normalization
+│   ├── cross_reference.py       # NMDP overlap detection
+│   ├── generate_csv.py          # Individual school CSV/Excel output
+│   ├── generate_master_report.py    # Master Excel report with territory tabs
+│   ├── google_sheets_export.py  # Export to Google Sheets
+│   ├── manage_locations.py      # School location data management
+│   └── import_territory_data.py # Import territories from NMDP Excel
 ├── prompts/
 │   ├── roster_search.md      # Roster agent instructions
 │   ├── career_research.md    # Career research agent instructions
@@ -374,6 +381,144 @@ Claude: ## Search Complete
 Full report saved to: output/university_of_colorado_2026-01-22.csv
 ```
 
+## Master Report Generation
+
+After running searches on multiple schools, you can generate a consolidated master report that aggregates all results with territory breakdowns.
+
+### When to Use
+
+The master report is useful when:
+- You've searched multiple schools and want to see all results together
+- You need to segment results by NMDP territory
+- You want to identify geographic patterns in warm leads
+
+### Running the Master Report
+
+```bash
+cd scripts
+python generate_master_report.py
+```
+
+This will:
+1. Scan all cached school data
+2. Run cross-reference for each school
+3. Look up state/county for each school
+4. Map schools to NMDP territories
+5. Generate `output/master_report_[date].xlsx` with:
+   - **Master - All Results** tab: Every coach from every searched school
+   - **[Territory Name]** tabs: One tab per territory with filtered results
+
+### Output Columns
+
+The master report includes these columns:
+- **School Searched**: The school where this coach currently works
+- **State**: State where the school is located
+- **County**: County where the school is located
+- **Territory**: NMDP territory for this school
+- **Coach Name**: Coach's name
+- **Current Position**: Their current role
+- **Career 1, 2, 3...**: Career history entries with hyperlinks to sources
+- **NMDP Overlap**: YES/NO
+- **Overlap Details**: Schools and years where overlap occurred
+- **Data Quality**: VERIFIED/PARTIAL/UNVERIFIED
+
+### Location Data Setup
+
+For location/territory features to work, schools must be in `data/school_locations.json`:
+
+```json
+{
+  "UNIVERSITY OF COLORADO-BOULDER": {
+    "state": "Colorado",
+    "county": "Boulder County"
+  }
+}
+```
+
+**Check for missing locations:**
+```bash
+cd scripts
+python manage_locations.py missing
+```
+
+**Add a school location:**
+```bash
+python manage_locations.py add "University of Example" "California" "Example County"
+```
+
+**Bulk add from CSV file:**
+```bash
+python manage_locations.py bulk locations_to_add.csv
+```
+
+### Territory Configuration
+
+Territory mapping is defined in `data/territory_mapping.json`. This file supports:
+- **State-level mapping**: For most states (AZ, CO, OR, WA, etc.)
+- **County-level mapping**: For California and Texas (more granular territories)
+
+To update territory data from the NMDP Excel file:
+```bash
+cd scripts
+python import_territory_data.py
+```
+
+This reads from `data/CA and TX Coverage Map for Lead Distribution (1).xlsx` and generates the territory mapping.
+
+Structure:
+```json
+{
+  "state_territories": {
+    "Colorado": "Colorado/Utah",
+    "Oregon": "Northwest"
+  },
+  "county_territories": {
+    "California": {
+      "Sacramento County": "Sacramento Valley & North Coast",
+      "Los Angeles County": "Southern CA West"
+    },
+    "Texas": {
+      "Travis County": "South Texas / San Antonio",
+      "Dallas County": "North Texas"
+    }
+  }
+}
+```
+
+### Example Master Report Workflow
+
+```
+User: "Generate master report"
+
+Claude: Let me generate the master report from all cached data.
+
+[Runs: python generate_master_report.py]
+
+Claude: ## Master Report Generated
+
+**Schools included:** 4
+- Sacramento State → Sacramento Valley & North Coast
+- University of Colorado → Colorado/Utah
+- University of Northern Colorado → Colorado/Utah
+- University of Oregon → Northwest
+
+**Total coaches:** 84
+**Coaches with NMDP overlap:** 21
+
+**By Territory:**
+- Colorado/Utah: 43 coaches
+- Northwest: 24 coaches
+- Sacramento Valley & North Coast: 17 coaches
+
+**Report saved:** output/master_report_2026-01-31.xlsx
+
+Tabs in workbook:
+1. Master - All Results (84 rows)
+2. Colorado/Utah (43 rows)
+3. Northwest (24 rows)
+4. Sacramento Valley & North Coast (17 rows)
+```
+
 ## Troubleshooting
 
 ### "School not found in NMDP database"
@@ -399,6 +544,42 @@ Edit `data/school_aliases.json`:
 "UNIVERSITY OF EXAMPLE": ["Example U", "Example State", "EU"]
 ```
 
+### Adding School Locations
+Use the manage_locations utility:
+```bash
+cd scripts
+
+# Check which schools are missing location data
+python manage_locations.py missing
+
+# Add a single school
+python manage_locations.py add "UNIVERSITY OF EXAMPLE" "California" "Example County"
+
+# Bulk add from CSV (format: SCHOOL,State,County)
+python manage_locations.py bulk schools.csv
+```
+
+Or edit `data/school_locations.json` directly:
+```json
+"UNIVERSITY OF EXAMPLE": {
+  "state": "California",
+  "county": "Example County"
+}
+```
+
+### Updating NMDP Territories
+Edit `data/territory_mapping.json`:
+```json
+{
+  "territories": {
+    "WEST": {
+      "name": "West Region",
+      "states": ["California", "Oregon", "Washington", ...]
+    }
+  }
+}
+```
+
 ### Updating Year Range
 Edit `config.json`:
 ```json
@@ -410,3 +591,95 @@ Edit `config.json`:
 
 ### Clearing Cache
 Delete `cache/[school_name]/` to force fresh research on next query.
+
+### Regenerating Master Report
+After adding new schools or updating location/territory data:
+```bash
+cd scripts
+python generate_master_report.py
+```
+
+## Google Sheets Integration
+
+### Sheet Access
+- **Sheet URL**: https://docs.google.com/spreadsheets/d/16XA3nRP9dspdTStYgm__PYKZY3qNofqoxmakGhXfg-I
+- **Sheet ID**: `16XA3nRP9dspdTStYgm__PYKZY3qNofqoxmakGhXfg-I`
+
+### Service Account
+- **Project**: gitgcoachresearch (Google Cloud)
+- **Service Account Email**: `gitg-sheets-access@gitgcoachresearch.iam.gserviceaccount.com`
+- **Credentials File**: `data/google_sheets_credentials.json`
+
+### Exporting to Google Sheets
+After running searches on schools, export all results to Google Sheets:
+```bash
+cd scripts
+python3 google_sheets_export.py "16XA3nRP9dspdTStYgm__PYKZY3qNofqoxmakGhXfg-I"
+```
+
+Or set the environment variable:
+```bash
+export GITG_SHEET_ID="16XA3nRP9dspdTStYgm__PYKZY3qNofqoxmakGhXfg-I"
+python3 google_sheets_export.py
+```
+
+### Sheet Structure
+The export creates these tabs:
+| Tab | Contents |
+|-----|----------|
+| Summary | Overall stats, territory breakdown |
+| Master Results | All coaches from all searched schools |
+| Colorado-Utah | Coaches in Colorado/Utah territory |
+| Northwest | Coaches in Northwest territory |
+| Sacramento Valley & North Coast | Coaches in that territory |
+| *(additional territory tabs)* | Created as schools are added |
+
+Coaches with NMDP overlaps are highlighted in green.
+
+### Batch Loop Auto-Export
+
+When running the batch loop (`prompts/batch_loop.md`), Google Sheets export happens automatically after each school completes.
+
+**Configuration in `batch_progress.json`:**
+```json
+{
+  "sheets_export": {
+    "enabled": true,
+    "sheet_id": "16XA3nRP9dspdTStYgm__PYKZY3qNofqoxmakGhXfg-I",
+    "last_successful_export": "2026-01-31T12:00:00",
+    "last_export_school_count": 10,
+    "failed_exports": []
+  }
+}
+```
+
+| Field | Description |
+|-------|-------------|
+| `enabled` | Set to `false` to disable auto-export |
+| `sheet_id` | Google Sheet ID |
+| `last_successful_export` | Timestamp of last successful export |
+| `last_export_school_count` | Number of schools at last export |
+| `failed_exports` | Array of failed export attempts for review |
+
+**Behavior:**
+- Exports after EVERY school completes
+- On failure: logs the error, continues to next school
+- Each export rebuilds the sheet from ALL cached data (not just current batch)
+- Previous batch data is preserved as long as cache exists
+
+**Failed Export Tracking:**
+If an export fails, an entry is added to `failed_exports`:
+```json
+{"school": "University of Example", "timestamp": "2026-01-31T12:00:00", "error": "API rate limit"}
+```
+
+You can review failed exports and re-run manually:
+```bash
+cd scripts && python3 google_sheets_export.py "16XA3nRP9dspdTStYgm__PYKZY3qNofqoxmakGhXfg-I"
+```
+
+### If Access Stops Working
+1. Verify the service account still has Editor access to the sheet
+2. Check that `data/google_sheets_credentials.json` exists and is valid
+3. Ensure Google Sheets API is enabled in the gitgcoachresearch project:
+   - https://console.cloud.google.com/apis/library/sheets.googleapis.com?project=gitgcoachresearch

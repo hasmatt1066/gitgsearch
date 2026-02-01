@@ -1,6 +1,5 @@
 {
   "_comment": "Maps common name variations to canonical NMDP database names. Keys are canonical names (uppercase), values are arrays of aliases.",
-
   "UNIVERSITY OF COLORADO-BOULDER": [
     "CU Boulder",
     "Colorado Buffaloes",
@@ -9,20 +8,24 @@
     "University of Colorado",
     "University of Colorado Boulder",
     "UC Boulder",
-    "Buffaloes"
+    "Buffaloes",
+    "Colorado Buffs"
   ],
   "UNIVERSITY OF SOUTHERN CALIFORNIA": [
     "USC",
     "Southern Cal",
     "Trojans",
-    "Southern California"
+    "Southern California",
+    "University of Southern California",
+    "USC Trojans"
   ],
   "OHIO STATE UNIVERSITY (THE)": [
     "Ohio State",
     "OSU",
     "Buckeyes",
     "tOSU",
-    "The Ohio State University"
+    "The Ohio State University",
+    "Ohio State University"
   ],
   "UNIVERSITY OF MICHIGAN - ANN ARBOR": [
     "Michigan",
@@ -36,26 +39,30 @@
     "Alabama",
     "Bama",
     "Crimson Tide",
-    "Alabama Crimson Tide"
+    "Alabama Crimson Tide",
+    "University of Alabama"
   ],
   "UNIVERSITY OF GEORGIA": [
     "Georgia",
     "UGA",
     "Bulldogs",
-    "Georgia Bulldogs"
+    "Georgia Bulldogs",
+    "University of Georgia"
   ],
   "UNIVERSITY OF TEXAS AT AUSTIN": [
     "Texas",
     "UT",
     "UT Austin",
     "Longhorns",
-    "Texas Longhorns"
+    "Texas Longhorns",
+    "University of Texas"
   ],
   "PENN STATE UNIVERSITY": [
     "Penn State",
     "PSU",
     "Nittany Lions",
-    "Pennsylvania State"
+    "Pennsylvania State",
+    "Pennsylvania State University"
   ],
   "UNIVERSITY OF NOTRE DAME": [
     "Notre Dame",
@@ -72,13 +79,15 @@
     "Oregon",
     "UO",
     "Ducks",
-    "Oregon Ducks"
+    "Oregon Ducks",
+    "University of Oregon"
   ],
   "UNIVERSITY OF FLORIDA": [
     "Florida",
     "UF",
     "Gators",
-    "Florida Gators"
+    "Florida Gators",
+    "University of Florida"
   ],
   "LOUISIANA STATE UNIVERSITY": [
     "LSU",
@@ -90,7 +99,8 @@
     "Oklahoma",
     "OU",
     "Sooners",
-    "Oklahoma Sooners"
+    "Oklahoma Sooners",
+    "University of Oklahoma"
   ],
   "FLORIDA STATE UNIVERSITY": [
     "Florida State",
@@ -102,7 +112,8 @@
     "Miami",
     "The U",
     "Hurricanes",
-    "Miami Hurricanes"
+    "Miami Hurricanes",
+    "University of Miami"
   ],
   "TEXAS A&M UNIVERSITY": [
     "Texas A&M",
@@ -114,7 +125,8 @@
     "Tennessee",
     "UT Knoxville",
     "Volunteers",
-    "Vols"
+    "Vols",
+    "University of Tennessee"
   ],
   "AUBURN UNIVERSITY": [
     "Auburn",
@@ -127,12 +139,14 @@
     "Wisconsin",
     "UW Madison",
     "Badgers",
-    "Wisconsin Badgers"
+    "Wisconsin Badgers",
+    "University of Wisconsin"
   ],
   "UNIVERSITY OF IOWA": [
     "Iowa",
     "Hawkeyes",
-    "Iowa Hawkeyes"
+    "Iowa Hawkeyes",
+    "University of Iowa"
   ],
   "MICHIGAN STATE UNIVERSITY": [
     "Michigan State",
@@ -144,25 +158,29 @@
     "Kentucky",
     "UK",
     "Wildcats",
-    "Kentucky Wildcats"
+    "Kentucky Wildcats",
+    "University of Kentucky"
   ],
   "UNIVERSITY OF ARKANSAS": [
     "Arkansas",
     "Razorbacks",
     "Hogs",
-    "Arkansas Razorbacks"
+    "Arkansas Razorbacks",
+    "University of Arkansas"
   ],
   "VIRGINIA TECH": [
     "Virginia Tech",
     "VT",
     "Hokies",
-    "Virginia Polytechnic"
+    "Virginia Polytechnic",
+    "Virginia Polytechnic Institute"
   ],
   "UNIVERSITY OF VIRGINIA": [
     "Virginia",
     "UVA",
     "Cavaliers",
-    "Wahoos"
+    "Wahoos",
+    "University of Virginia"
   ],
   "WEST VIRGINIA UNIVERSITY": [
     "West Virginia",
@@ -172,7 +190,8 @@
   "UNIVERSITY OF PITTSBURGH": [
     "Pittsburgh",
     "Pitt",
-    "Panthers"
+    "Panthers",
+    "University of Pittsburgh"
   ],
   "SYRACUSE UNIVERSITY": [
     "Syracuse",
@@ -199,7 +218,8 @@
     "NC State",
     "North Carolina State",
     "Wolfpack",
-    "NCSU"
+    "NCSU",
+    "North Carolina State University"
   ],
   "WAKE FOREST UNIVERSITY": [
     "Wake Forest",
@@ -210,62 +230,73 @@
     "Georgia Tech",
     "GT",
     "Yellow Jackets",
-    "Ramblin Wreck"
+    "Ramblin Wreck",
+    "Georgia Institute of Technology"
   ],
   "UNIVERSITY OF LOUISVILLE": [
     "Louisville",
     "UofL",
     "Cardinals",
-    "Louisville Cardinals"
+    "Louisville Cardinals",
+    "University of Louisville"
   ],
   "UNIVERSITY OF CALIFORNIA (UCLA)": [
     "UCLA",
     "Bruins",
-    "UC Los Angeles"
+    "UC Los Angeles",
+    "University of California Los Angeles"
   ],
   "UNIVERSITY OF CALIFORNIA BERKELEY": [
     "Cal",
     "Berkeley",
     "UC Berkeley",
     "California",
-    "Golden Bears"
+    "Golden Bears",
+    "California Golden Bears"
   ],
   "STANFORD UNIVERSITY": [
     "Stanford",
-    "Cardinal"
+    "Cardinal",
+    "Stanford Cardinal"
   ],
   "UNIVERSITY OF WASHINGTON": [
     "Washington",
     "UW",
     "Huskies",
-    "Washington Huskies"
+    "Washington Huskies",
+    "University of Washington"
   ],
   "WASHINGTON STATE UNIVERSITY": [
     "Washington State",
     "WSU",
     "Wazzu",
-    "Cougars"
+    "Cougars",
+    "Washington State Cougars"
   ],
   "UNIVERSITY OF ARIZONA": [
     "Arizona",
     "UA",
     "Wildcats",
-    "Arizona Wildcats"
+    "Arizona Wildcats",
+    "University of Arizona"
   ],
   "ARIZONA STATE UNIVERSITY": [
     "Arizona State",
     "ASU",
-    "Sun Devils"
+    "Sun Devils",
+    "Arizona State Sun Devils"
   ],
   "UNIVERSITY OF UTAH": [
     "Utah",
     "Utes",
-    "Utah Utes"
+    "Utah Utes",
+    "University of Utah"
   ],
   "BRIGHAM YOUNG UNIVERSITY": [
     "BYU",
     "Brigham Young",
-    "Cougars"
+    "Cougars",
+    "BYU Cougars"
   ],
   "BAYLOR UNIVERSITY": [
     "Baylor",
@@ -291,7 +322,8 @@
   "UNIVERSITY OF KANSAS": [
     "Kansas",
     "KU",
-    "Jayhawks"
+    "Jayhawks",
+    "University of Kansas"
   ],
   "IOWA STATE UNIVERSITY": [
     "Iowa State",
@@ -302,12 +334,14 @@
     "Cincinnati",
     "UC",
     "Bearcats",
-    "Cincy"
+    "Cincy",
+    "University of Cincinnati"
   ],
   "UNIVERSITY OF HOUSTON": [
     "Houston",
     "UH",
-    "Cougars"
+    "Cougars",
+    "University of Houston"
   ],
   "UNIVERSITY OF CENTRAL FLORIDA": [
     "UCF",
@@ -356,7 +390,8 @@
   ],
   "UNIVERSITY OF AKRON": [
     "Akron",
-    "Zips"
+    "Zips",
+    "University of Akron"
   ],
   "KENT STATE UNIVERSITY": [
     "Kent State",
@@ -394,12 +429,14 @@
   ],
   "UNIVERSITY OF TOLEDO": [
     "Toledo",
-    "Rockets"
+    "Rockets",
+    "University of Toledo"
   ],
   "UNIVERSITY OF BUFFALO": [
     "Buffalo",
     "UB",
-    "Bulls"
+    "Bulls",
+    "University at Buffalo"
   ],
   "UNIVERSITY OF HAWAII AT MANOA": [
     "Hawaii",
@@ -433,5 +470,548 @@
     "OSU",
     "Beavers",
     "Oregon State Beavers"
+  ],
+  "_comment_western": "Western region schools added for batch processing",
+  "BOISE STATE UNIVERSITY": [
+    "Boise State",
+    "BSU",
+    "Broncos",
+    "Boise State Broncos",
+    "Boise"
+  ],
+  "SAN DIEGO STATE UNIVERSITY": [
+    "San Diego State",
+    "SDSU",
+    "Aztecs",
+    "San Diego State Aztecs"
+  ],
+  "CALIFORNIA STATE UNIVERSITY, FRESNO": [
+    "Fresno State",
+    "Fresno State University",
+    "CSU Fresno",
+    "Cal State Fresno",
+    "Bulldogs",
+    "Fresno State Bulldogs",
+    "Fresno"
+  ],
+  "COLORADO STATE UNIVERSITY": [
+    "Colorado State",
+    "CSU",
+    "Rams",
+    "Colorado State Rams"
+  ],
+  "UNIVERSITY OF NEVADA, LAS VEGAS": [
+    "UNLV",
+    "Nevada Las Vegas",
+    "University of Nevada Las Vegas",
+    "Rebels",
+    "UNLV Rebels"
+  ],
+  "SAN JOSE STATE UNIVERSITY": [
+    "San Jose State",
+    "SJSU",
+    "Spartans",
+    "San Jose State Spartans"
+  ],
+  "UNIVERSITY OF NEVADA, RENO": [
+    "Nevada",
+    "UNR",
+    "University of Nevada Reno",
+    "University of Nevada",
+    "Wolf Pack",
+    "Nevada Wolf Pack",
+    "Reno"
+  ],
+  "UTAH STATE UNIVERSITY": [
+    "Utah State",
+    "USU",
+    "Aggies",
+    "Utah State Aggies"
+  ],
+  "UNIVERSITY OF WYOMING": [
+    "Wyoming",
+    "UW",
+    "Cowboys",
+    "Pokes",
+    "Wyoming Cowboys"
+  ],
+  "UNITED STATES AIR FORCE ACADEMY": [
+    "Air Force",
+    "Air Force Academy",
+    "USAFA",
+    "AFA",
+    "Falcons",
+    "Air Force Falcons"
+  ],
+  "UNIVERSITY OF NEW MEXICO": [
+    "New Mexico",
+    "UNM",
+    "Lobos",
+    "New Mexico Lobos"
+  ],
+  "ARIZONA CHRISTIAN UNIVERSITY": [
+    "Arizona Christian University"
+  ],
+  "OTTAWA UNIVERSITY ARIZONA": [
+    "Ottawa University Arizona"
+  ],
+  "NORTHERN ARIZONA UNIVERSITY": [
+    "Northern Arizona University"
+  ],
+  "SIMPSON UNIVERSITY": [
+    "Simpson University"
+  ],
+  "CALIFORNIA POLYTECHNIC STATE UNIVERSITY": [
+    "California Polytechnic State University",
+    "California Polytechnic State"
+  ],
+  "UNIVERSITY OF CALIFORNIA, BERKELEY": [
+    "University of California, Berkeley",
+    "California Berkeley"
+  ],
+  "CALIFORNIA STATE UNIVERSITY, SACRAMENTO": [
+    "California State University, Sacramento",
+    "California State, Sacramento",
+    "CSU Sacramento",
+    "Cal State Sacramento",
+    "Sacramento"
+  ],
+  "UNIVERSITY OF SAN DIEGO": [
+    "University of San Diego",
+    "San Diego"
+  ],
+  "SAN JOS\u00c9 STATE UNIVERSITY": [
+    "San Jos\u00e9 State University",
+    "San Jos\u00e9 State"
+  ],
+  "UNIVERSITY OF CALIFORNIA, DAVIS": [
+    "University of California, Davis",
+    "California Davis"
+  ],
+  "UNIVERSITY OF CALIFORNIA, LOS ANGELES": [
+    "University of California, Los Angeles",
+    "California Los Angeles"
+  ],
+  "CALIFORNIA LUTHERAN UNIVERSITY": [
+    "California Lutheran University"
+  ],
+  "CHAPMAN UNIVERSITY": [
+    "Chapman University"
+  ],
+  "CLAREMONT MCKENNA COLLEGE HARVEY MUDD COLLEGE SCRIPPS COLLEGE": [
+    "Claremont McKenna College Harvey Mudd College Scripps College",
+    "Claremont McKenna Harvey Mudd Scripps"
+  ],
+  "UNIVERSITY OF LA VERNE": [
+    "University of La Verne",
+    "La Verne"
+  ],
+  "POMONA COLLEGE PITZER COLLEGE": [
+    "Pomona College Pitzer College",
+    "Pomona Pitzer"
+  ],
+  "UNIVERSITY OF REDLANDS": [
+    "University of Redlands",
+    "Redlands"
+  ],
+  "UNIVERSITY OF NORTHERN COLORADO": [
+    "University of Northern Colorado",
+    "Northern Colorado"
+  ],
+  "ADAMS STATE UNIVERSITY": [
+    "Adams State University",
+    "Adams State"
+  ],
+  "COLORADO STATE UNIVERSITY\u2013PUEBLO": [
+    "Colorado State University\u2013Pueblo",
+    "Colorado State\u2013Pueblo"
+  ],
+  "COLORADO MESA UNIVERSITY": [
+    "Colorado Mesa University"
+  ],
+  "COLORADO SCHOOL OF MINES": [
+    "Colorado School of Mines"
+  ],
+  "FORT LEWIS COLLEGE": [
+    "Fort Lewis College",
+    "Fort Lewis"
+  ],
+  "WESTERN COLORADO UNIVERSITY": [
+    "Western Colorado University"
+  ],
+  "COLLEGE OF IDAHO": [
+    "College of Idaho"
+  ],
+  "IDAHO STATE UNIVERSITY": [
+    "Idaho State University",
+    "Idaho State"
+  ],
+  "UNIVERSITY OF IDAHO": [
+    "University of Idaho",
+    "Idaho"
+  ],
+  "CARROLL COLLEGE": [
+    "Carroll College",
+    "Carroll"
+  ],
+  "MONTANA STATE UNIVERSITY\u2013NORTHERN": [
+    "Montana State University\u2013Northern",
+    "Montana State\u2013Northern"
+  ],
+  "MONTANA TECHNOLOGICAL UNIVERSITY": [
+    "Montana Technological University"
+  ],
+  "UNIVERSITY OF MONTANA WESTERN": [
+    "University of Montana Western",
+    "Montana Western"
+  ],
+  "ROCKY MOUNTAIN COLLEGE": [
+    "Rocky Mountain College",
+    "Rocky Mountain"
+  ],
+  "UNIVERSITY OF MONTANA": [
+    "University of Montana",
+    "Montana"
+  ],
+  "MONTANA STATE UNIVERSITY": [
+    "Montana State University",
+    "Montana State"
+  ],
+  "NEW MEXICO STATE UNIVERSITY": [
+    "New Mexico State University",
+    "New Mexico State"
+  ],
+  "EASTERN NEW MEXICO UNIVERSITY": [
+    "Eastern New Mexico University"
+  ],
+  "NEW MEXICO HIGHLANDS UNIVERSITY": [
+    "New Mexico Highlands University"
+  ],
+  "WESTERN NEW MEXICO UNIVERSITY": [
+    "Western New Mexico University"
+  ],
+  "EASTERN OREGON UNIVERSITY": [
+    "Eastern Oregon University"
+  ],
+  "SOUTHERN OREGON UNIVERSITY": [
+    "Southern Oregon University"
+  ],
+  "PORTLAND STATE UNIVERSITY": [
+    "Portland State University",
+    "Portland State"
+  ],
+  "WESTERN OREGON UNIVERSITY": [
+    "Western Oregon University"
+  ],
+  "GEORGE FOX UNIVERSITY": [
+    "George Fox University"
+  ],
+  "LEWIS & CLARK COLLEGE": [
+    "Lewis & Clark College",
+    "Lewis & Clark"
+  ],
+  "LINFIELD UNIVERSITY": [
+    "Linfield University"
+  ],
+  "PACIFIC UNIVERSITY": [
+    "Pacific University"
+  ],
+  "WILLAMETTE UNIVERSITY": [
+    "Willamette University"
+  ],
+  "SOUTHERN UTAH UNIVERSITY": [
+    "Southern Utah University"
+  ],
+  "UTAH TECH UNIVERSITY": [
+    "Utah Tech University"
+  ],
+  "WEBER STATE UNIVERSITY": [
+    "Weber State University",
+    "Weber State"
+  ],
+  "EASTERN WASHINGTON UNIVERSITY": [
+    "Eastern Washington University"
+  ],
+  "PACIFIC LUTHERAN UNIVERSITY": [
+    "Pacific Lutheran University"
+  ],
+  "UNIVERSITY OF PUGET SOUND": [
+    "University of Puget Sound",
+    "Puget Sound"
+  ],
+  "WHITWORTH UNIVERSITY": [
+    "Whitworth University"
+  ],
+  "YUBA COLLEGE": [
+    "Yuba College",
+    "Yuba"
+  ],
+  "SANTA ROSA JUNIOR COLLEGE": [
+    "Santa Rosa Junior College",
+    "Santa Rosa Junior"
+  ],
+  "AMERICAN RIVER COLLEGE": [
+    "American River College",
+    "American River"
+  ],
+  "MERCED COLLEGE": [
+    "Merced College",
+    "Merced"
+  ],
+  "SADDLEBACK COLLEGE": [
+    "Saddleback College",
+    "Saddleback"
+  ],
+  "LOS ANGELES PIERCE COLLEGE": [
+    "Los Angeles Pierce College",
+    "Los Angeles Pierce"
+  ],
+  "COLLEGE OF SAN MATEO": [
+    "College of San Mateo"
+  ],
+  "ALLAN HANCOCK COLLEGE": [
+    "Allan Hancock College",
+    "Allan Hancock"
+  ],
+  "CONTRA COSTA COLLEGE": [
+    "Contra Costa College",
+    "Contra Costa"
+  ],
+  "PALOMAR COLLEGE": [
+    "Palomar College",
+    "Palomar"
+  ],
+  "SANTA MONICA COLLEGE": [
+    "Santa Monica College",
+    "Santa Monica"
+  ],
+  "COLLEGE OF THE CANYONS": [
+    "College of the Canyons"
+  ],
+  "LOS ANGELES SOUTHWEST COLLEGE": [
+    "Los Angeles Southwest College",
+    "Los Angeles Southwest"
+  ],
+  "SANTA ANA COLLEGE": [
+    "Santa Ana College",
+    "Santa Ana"
+  ],
+  "LANEY COLLEGE": [
+    "Laney College",
+    "Laney"
+  ],
+  "COLLEGE OF THE SISKIYOUS": [
+    "College of the Siskiyous"
+  ],
+  "MT. SAN JACINTO COLLEGE": [
+    "Mt. San Jacinto College",
+    "Mt. San Jacinto"
+  ],
+  "WEST HILLS COLLEGE COALINGA": [
+    "West Hills College Coalinga",
+    "West Hills Coalinga"
+  ],
+  "CERRITOS COLLEGE": [
+    "Cerritos College",
+    "Cerritos"
+  ],
+  "CITRUS COLLEGE": [
+    "Citrus College",
+    "Citrus"
+  ],
+  "COLLEGE OF THE SEQUOIAS": [
+    "College of the Sequoias"
+  ],
+  "CHABOT COLLEGE": [
+    "Chabot College",
+    "Chabot"
+  ],
+  "FEATHER RIVER COLLEGE": [
+    "Feather River College",
+    "Feather River"
+  ],
+  "GROSSMONT COLLEGE": [
+    "Grossmont College",
+    "Grossmont"
+  ],
+  "FULLERTON COLLEGE": [
+    "Fullerton College",
+    "Fullerton"
+  ],
+  "EAST LOS ANGELES COLLEGE": [
+    "East Los Angeles College",
+    "East Los Angeles"
+  ],
+  "SAN JOSE CITY COLLEGE": [
+    "San Jose City College",
+    "San Jose City"
+  ],
+  "SOUTHWESTERN COLLEGE": [
+    "Southwestern College",
+    "Southwestern"
+  ],
+  "SHASTA COLLEGE": [
+    "Shasta College",
+    "Shasta"
+  ],
+  "PASADENA CITY COLLEGE": [
+    "Pasadena City College",
+    "Pasadena City"
+  ],
+  "MONTEREY PENINSULA COLLEGE": [
+    "Monterey Peninsula College",
+    "Monterey Peninsula"
+  ],
+  "ANTELOPE VALLEY COLLEGE": [
+    "Antelope Valley College",
+    "Antelope Valley"
+  ],
+  "LOS ANGELES VALLEY COLLEGE": [
+    "Los Angeles Valley College",
+    "Los Angeles Valley"
+  ],
+  "DE ANZA COLLEGE": [
+    "De Anza College",
+    "De Anza"
+  ],
+  "MOUNT SAN ANTONIO COLLEGE": [
+    "Mount San Antonio College",
+    "Mount San Antonio"
+  ],
+  "SAN JOAQUIN DELTA COLLEGE": [
+    "San Joaquin Delta College",
+    "San Joaquin Delta"
+  ],
+  "LOS MEDANOS COLLEGE": [
+    "Los Medanos College",
+    "Los Medanos"
+  ],
+  "SAN DIEGO MESA COLLEGE": [
+    "San Diego Mesa College",
+    "San Diego Mesa"
+  ],
+  "FOOTHILL COLLEGE": [
+    "Foothill College",
+    "Foothill"
+  ],
+  "SACRAMENTO CITY COLLEGE": [
+    "Sacramento City College",
+    "Sacramento City"
+  ],
+  "HARTNELL COLLEGE": [
+    "Hartnell College",
+    "Hartnell"
+  ],
+  "CHAFFEY COLLEGE": [
+    "Chaffey College",
+    "Chaffey"
+  ],
+  "MODESTO JUNIOR COLLEGE": [
+    "Modesto Junior College",
+    "Modesto Junior"
+  ],
+  "VENTURA COLLEGE": [
+    "Ventura College",
+    "Ventura"
+  ],
+  "ORANGE COAST COLLEGE": [
+    "Orange Coast College",
+    "Orange Coast"
+  ],
+  "MOORPARK COLLEGE": [
+    "Moorpark College",
+    "Moorpark"
+  ],
+  "CITY COLLEGE OF SAN FRANCISCO": [
+    "City College of San Francisco",
+    "City of San Francisco"
+  ],
+  "FRESNO CITY COLLEGE": [
+    "Fresno City College",
+    "Fresno City"
+  ],
+  "GAVILAN COLLEGE": [
+    "Gavilan College",
+    "Gavilan"
+  ],
+  "VICTOR VALLEY COLLEGE": [
+    "Victor Valley College",
+    "Victor Valley"
+  ],
+  "BAKERSFIELD COLLEGE": [
+    "Bakersfield College",
+    "Bakersfield"
+  ],
+  "BUTTE COLLEGE": [
+    "Butte College",
+    "Butte"
+  ],
+  "COLLEGE OF THE DESERT": [
+    "College of the Desert"
+  ],
+  "GOLDEN WEST COLLEGE": [
+    "Golden West College",
+    "Golden West"
+  ],
+  "COMMUNITY CHRISTIAN COLLEGE": [
+    "Community Christian College",
+    "Community Christian"
+  ],
+  "LOS ANGELES HARBOR COLLEGE": [
+    "Los Angeles Harbor College",
+    "Los Angeles Harbor"
+  ],
+  "COMPTON COLLEGE": [
+    "Compton College",
+    "Compton"
+  ],
+  "REEDLEY COLLEGE": [
+    "Reedley College",
+    "Reedley"
+  ],
+  "RIVERSIDE CITY COLLEGE": [
+    "Riverside City College",
+    "Riverside City"
+  ],
+  "GLENDALE COMMUNITY COLLEGE": [
+    "Glendale Community College",
+    "Glendale Community"
+  ],
+  "SANTA BARBARA CITY COLLEGE": [
+    "Santa Barbara City College",
+    "Santa Barbara City"
+  ],
+  "DIABLO VALLEY COLLEGE": [
+    "Diablo Valley College",
+    "Diablo Valley"
+  ],
+  "LONG BEACH CITY COLLEGE": [
+    "Long Beach City College",
+    "Long Beach City"
+  ],
+  "EL CAMINO COLLEGE": [
+    "El Camino College",
+    "El Camino"
+  ],
+  "WEST LOS ANGELES COLLEGE": [
+    "West Los Angeles College",
+    "West Los Angeles"
+  ],
+  "SIERRA COLLEGE": [
+    "Sierra College",
+    "Sierra"
+  ],
+  "SAN BERNARDINO VALLEY COLLEGE": [
+    "San Bernardino Valley College",
+    "San Bernardino Valley"
+  ],
+  "NEW MEXICO MILITARY INST.": [
+    "New Mexico Military Inst."
+  ],
+  "SNOW": [
+    "Snow"
+  ],
+  "GRAYS HARBOR": [
+    "Grays Harbor"
   ]
 }

@@ -1,7 +1,6 @@
 {
   "_comment": "Maps school names to their state and county. Keys should match canonical NMDP names or common variations.",
   "_placeholder": "Territory mapping will be added separately in territory_mapping.json",
-
   "UNIVERSITY OF COLORADO-BOULDER": {
     "state": "Colorado",
     "county": "Boulder County"
@@ -133,5 +132,221 @@
   "BRIGHAM YOUNG UNIVERSITY": {
     "state": "Utah",
     "county": "Utah County"
+  },
+  "SACRAMENTO STATE UNIVERSITY": {
+    "state": "California",
+    "county": "Sacramento County"
+  },
+  "ARIZONA CHRISTIAN UNIVERSITY": {
+    "state": "Arizona",
+    "county": "Maricopa County"
+  },
+  "CALIFORNIA POLYTECHNIC STATE UNIVERSITY": {
+    "state": "California",
+    "county": "San Luis Obispo County"
+  },
+  "CALIFORNIA STATE UNIVERSITY, FRESNO": {
+    "state": "California",
+    "county": "Fresno County"
+  },
+  "NORTHERN ARIZONA UNIVERSITY": {
+    "state": "Arizona",
+    "county": "Coconino County"
+  },
+  "OTTAWA UNIVERSITY ARIZONA": {
+    "state": "Arizona",
+    "county": "Maricopa County"
+  },
+  "SAN DIEGO STATE UNIVERSITY": {
+    "state": "California",
+    "county": "San Diego County"
+  },
+  "SAN JOSE STATE UNIVERSITY": {
+    "state": "California",
+    "county": "Santa Clara County"
+  },
+  "SAN JOSÉ STATE UNIVERSITY": {
+    "state": "California",
+    "county": "Santa Clara County"
+  },
+  "SIMPSON UNIVERSITY": {
+    "state": "California",
+    "county": "Shasta County"
+  },
+  "UNIVERSITY OF CALIFORNIA, BERKELEY": {
+    "state": "California",
+    "county": "Alameda County"
+  },
+  "UNIVERSITY OF CALIFORNIA, DAVIS": {
+    "state": "California",
+    "county": "Yolo County"
+  },
+  "UNIVERSITY OF CALIFORNIA, LOS ANGELES": {
+    "state": "California",
+    "county": "Los Angeles County"
+  },
+  "UNIVERSITY OF SAN DIEGO": {
+    "state": "California",
+    "county": "San Diego County"
+  },
+  "CALIFORNIA LUTHERAN UNIVERSITY": {
+    "state": "California",
+    "county": "Ventura County"
+  },
+  "CHAPMAN UNIVERSITY": {
+    "state": "California",
+    "county": "Orange County"
+  },
+  "CLAREMONT-MUDD-SCRIPPS": {
+    "state": "California",
+    "county": "Los Angeles County"
+  },
+  "CLAREMONT MCKENNA COLLEGE": {
+    "state": "California",
+    "county": "Los Angeles County"
+  },
+  "UNIVERSITY OF LA VERNE": {
+    "state": "California",
+    "county": "Los Angeles County"
+  },
+  "POMONA-PITZER": {
+    "state": "California",
+    "county": "Los Angeles County"
+  },
+  "POMONA COLLEGE": {
+    "state": "California",
+    "county": "Los Angeles County"
+  },
+  "UNIVERSITY OF REDLANDS": {
+    "state": "California",
+    "county": "San Bernardino County"
+  },
+  "UNITED STATES AIR FORCE ACADEMY": {
+    "state": "Colorado",
+    "county": "El Paso County"
+  },
+  "COLORADO STATE UNIVERSITY": {
+    "state": "Colorado",
+    "county": "Larimer County"
+  },
+  "ADAMS STATE UNIVERSITY": {
+    "state": "Colorado",
+    "county": "Alamosa County"
+  },
+  "COLORADO STATE UNIVERSITY-PUEBLO": {
+    "state": "Colorado",
+    "county": "Pueblo County"
+  },
+  "COLORADO MESA UNIVERSITY": {
+    "state": "Colorado",
+    "county": "Mesa County"
+  },
+  "COLORADO SCHOOL OF MINES": {
+    "state": "Colorado",
+    "county": "Jefferson County"
+  },
+  "FORT LEWIS COLLEGE": {
+    "state": "Colorado",
+    "county": "La Plata County"
+  },
+  "WESTERN COLORADO UNIVERSITY": {
+    "state": "Colorado",
+    "county": "Gunnison County"
+  },
+  "UNIVERSITY OF HAWAII AT MANOA": {
+    "state": "Hawaii",
+    "county": "Honolulu County"
+  },
+  "COLLEGE OF IDAHO": {
+    "state": "Idaho",
+    "county": "Canyon County"
+  },
+  "BOISE STATE UNIVERSITY": {
+    "state": "Idaho",
+    "county": "Ada County"
+  },
+  "IDAHO STATE UNIVERSITY": {
+    "state": "Idaho",
+    "county": "Bannock County"
+  },
+  "UNIVERSITY OF IDAHO": {
+    "state": "Idaho",
+    "county": "Latah County"
+  },
+  "CARROLL COLLEGE": {
+    "state": "Montana",
+    "county": "Lewis and Clark County"
+  },
+  "MONTANA STATE UNIVERSITY-NORTHERN": {
+    "state": "Montana",
+    "county": "Hill County"
+  },
+  "MONTANA TECHNOLOGICAL UNIVERSITY": {
+    "state": "Montana",
+    "county": "Silver Bow County"
+  },
+  "UNIVERSITY OF MONTANA WESTERN": {
+    "state": "Montana",
+    "county": "Beaverhead County"
+  },
+  "ROCKY MOUNTAIN COLLEGE": {
+    "state": "Montana",
+    "county": "Yellowstone County"
+  },
+  "UNIVERSITY OF MONTANA": {
+    "state": "Montana",
+    "county": "Missoula County"
+  },
+  "MONTANA STATE UNIVERSITY": {
+    "state": "Montana",
+    "county": "Gallatin County"
+  },
+  "UNIVERSITY OF NEW MEXICO": {
+    "state": "New Mexico",
+    "county": "Bernalillo County"
+  },
+  "NEW MEXICO STATE UNIVERSITY": {
+    "state": "New Mexico",
+    "county": "Doña Ana County"
+  },
+  "EASTERN NEW MEXICO UNIVERSITY": {
+    "state": "New Mexico",
+    "county": "Roosevelt County"
+  },
+  "NEW MEXICO HIGHLANDS UNIVERSITY": {
+    "state": "New Mexico",
+    "county": "San Miguel County"
+  },
+  "WESTERN NEW MEXICO UNIVERSITY": {
+    "state": "New Mexico",
+    "county": "Grant County"
+  },
+  "UNIVERSITY OF NEVADA, RENO": {
+    "state": "Nevada",
+    "county": "Washoe County"
+  },
+  "UNIVERSITY OF NEVADA-RENO": {
+    "state": "Nevada",
+    "county": "Washoe County"
+  },
+  "UNIVERSITY OF NEVADA, LAS VEGAS": {
+    "state": "Nevada",
+    "county": "Clark County"
+  },
+  "UNIVERSITY OF NEVADA-LAS VEGAS": {
+    "state": "Nevada",
+    "county": "Clark County"
+  },
+  "UNLV": {
+    "state": "Nevada",
+    "county": "Clark County"
+  },
+  "EASTERN OREGON UNIVERSITY": {
+    "state": "Oregon",
+    "county": "Union County"
+  },
+  "SOUTHERN OREGON UNIVERSITY": {
+    "state": "Oregon",
+    "county": "Jackson County"
   }
 }

@@ -1,0 +1,742 @@
+{
+  "batch_name": "West Region Full 2026",
+  "created": "2026-01-31",
+  "description": "All western region colleges with football programs from validated list",
+  "schools": [
+    {
+      "name": "Arizona Christian University",
+      "state": "AZ",
+      "priority": 1
+    },
+    {
+      "name": "Ottawa University Arizona",
+      "state": "AZ",
+      "priority": 1
+    },
+    {
+      "name": "Arizona State University",
+      "state": "AZ",
+      "priority": 1
+    },
+    {
+      "name": "University of Arizona",
+      "state": "AZ",
+      "priority": 1
+    },
+    {
+      "name": "Northern Arizona University",
+      "state": "AZ",
+      "priority": 1
+    },
+    {
+      "name": "Simpson University",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "California Polytechnic State University",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "University of California, Berkeley",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "California State University, Fresno",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "California State University, Sacramento",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "San Diego State University",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "University of San Diego",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "San Jos\u00e9 State University",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Stanford University",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "University of California, Davis",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "University of California, Los Angeles",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "University of Southern California",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "California Lutheran University",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Chapman University",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Claremont McKenna College Harvey Mudd College Scripps College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "University of La Verne",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Pomona College Pitzer College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "University of Redlands",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "United States Air Force Academy",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "University of Colorado Boulder",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "Colorado State University",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "University of Northern Colorado",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "Adams State University",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "Colorado State University\u2013Pueblo",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "Colorado Mesa University",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "Colorado School of Mines",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "Fort Lewis College",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "Western Colorado University",
+      "state": "CO",
+      "priority": 1
+    },
+    {
+      "name": "University of Hawaii at Manoa",
+      "state": "HI",
+      "priority": 1
+    },
+    {
+      "name": "College of Idaho",
+      "state": "ID",
+      "priority": 1
+    },
+    {
+      "name": "Boise State University",
+      "state": "ID",
+      "priority": 1
+    },
+    {
+      "name": "Idaho State University",
+      "state": "ID",
+      "priority": 1
+    },
+    {
+      "name": "University of Idaho",
+      "state": "ID",
+      "priority": 1
+    },
+    {
+      "name": "Carroll College",
+      "state": "MT",
+      "priority": 1
+    },
+    {
+      "name": "Montana State University\u2013Northern",
+      "state": "MT",
+      "priority": 1
+    },
+    {
+      "name": "Montana Technological University",
+      "state": "MT",
+      "priority": 1
+    },
+    {
+      "name": "University of Montana Western",
+      "state": "MT",
+      "priority": 1
+    },
+    {
+      "name": "Rocky Mountain College",
+      "state": "MT",
+      "priority": 1
+    },
+    {
+      "name": "University of Montana",
+      "state": "MT",
+      "priority": 1
+    },
+    {
+      "name": "Montana State University",
+      "state": "MT",
+      "priority": 1
+    },
+    {
+      "name": "University of New Mexico",
+      "state": "NM",
+      "priority": 1
+    },
+    {
+      "name": "New Mexico State University",
+      "state": "NM",
+      "priority": 1
+    },
+    {
+      "name": "Eastern New Mexico University",
+      "state": "NM",
+      "priority": 1
+    },
+    {
+      "name": "New Mexico Highlands University",
+      "state": "NM",
+      "priority": 1
+    },
+    {
+      "name": "Western New Mexico University",
+      "state": "NM",
+      "priority": 1
+    },
+    {
+      "name": "University of Nevada, Reno",
+      "state": "NV",
+      "priority": 1
+    },
+    {
+      "name": "University of Nevada, Las Vegas",
+      "state": "NV",
+      "priority": 1
+    },
+    {
+      "name": "Eastern Oregon University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Southern Oregon University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "University of Oregon",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Oregon State University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Portland State University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Western Oregon University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "George Fox University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Lewis & Clark College",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Linfield University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Pacific University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Willamette University",
+      "state": "OR",
+      "priority": 1
+    },
+    {
+      "name": "Brigham Young University",
+      "state": "UT",
+      "priority": 1
+    },
+    {
+      "name": "Southern Utah University",
+      "state": "UT",
+      "priority": 1
+    },
+    {
+      "name": "Utah State University",
+      "state": "UT",
+      "priority": 1
+    },
+    {
+      "name": "Utah Tech University",
+      "state": "UT",
+      "priority": 1
+    },
+    {
+      "name": "University of Utah",
+      "state": "UT",
+      "priority": 1
+    },
+    {
+      "name": "Weber State University",
+      "state": "UT",
+      "priority": 1
+    },
+    {
+      "name": "Eastern Washington University",
+      "state": "WA",
+      "priority": 1
+    },
+    {
+      "name": "University of Washington",
+      "state": "WA",
+      "priority": 1
+    },
+    {
+      "name": "Washington State University",
+      "state": "WA",
+      "priority": 1
+    },
+    {
+      "name": "Central Washington University",
+      "state": "WA",
+      "priority": 1
+    },
+    {
+      "name": "Pacific Lutheran University",
+      "state": "WA",
+      "priority": 1
+    },
+    {
+      "name": "University of Puget Sound",
+      "state": "WA",
+      "priority": 1
+    },
+    {
+      "name": "Whitworth University",
+      "state": "WA",
+      "priority": 1
+    },
+    {
+      "name": "University of Wyoming",
+      "state": "WY",
+      "priority": 1
+    },
+    {
+      "name": "Yuba College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Santa Rosa Junior College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "American River College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Merced College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Saddleback College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Los Angeles Pierce College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "College of San Mateo",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Allan Hancock College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Contra Costa College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Palomar College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Santa Monica College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "College of the Canyons",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Los Angeles Southwest College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Santa Ana College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Laney College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "College of the Siskiyous",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Mt. San Jacinto College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "West Hills College Coalinga",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Cerritos College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Citrus College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "College of the Sequoias",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Chabot College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Feather River College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Grossmont College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Fullerton College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "East Los Angeles College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "San Jose City College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Southwestern College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Shasta College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Pasadena City College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Monterey Peninsula College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Antelope Valley College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Los Angeles Valley College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "De Anza College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Mount San Antonio College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "San Joaquin Delta College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Los Medanos College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "San Diego Mesa College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Foothill College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Sacramento City College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Hartnell College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Chaffey College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Modesto Junior College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Ventura College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Orange Coast College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Moorpark College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "City College of San Francisco",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Fresno City College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Gavilan College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Victor Valley College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Bakersfield College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Butte College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "College of the Desert",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Golden West College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Community Christian College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Los Angeles Harbor College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Compton College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Reedley College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Riverside City College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Glendale Community College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Santa Barbara City College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Diablo Valley College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Long Beach City College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "El Camino College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "West Los Angeles College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "Sierra College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "San Bernardino Valley College",
+      "state": "CA",
+      "priority": 1
+    },
+    {
+      "name": "New Mexico Military Inst.",
+      "state": "NM",
+      "priority": 1
+    },
+    {
+      "name": "Snow",
+      "state": "UT",
+      "priority": 1
+    },
+    {
+      "name": "Grays Harbor",
+      "state": "WA",
+      "priority": 1
+    }
+  ]
+}
